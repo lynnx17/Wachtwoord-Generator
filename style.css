@@ -4,8 +4,8 @@ body {
 
 .body {
     background-color: #FDA4AF;
-    width: 1253px;
-    height: 678px;
+    width: 80%;
+    height: auto;
     margin: 10px auto 10px auto;
     border-radius: 20px;
     box-shadow: 10px 10px 20px #FB7185;
@@ -18,7 +18,7 @@ body {
 .tekst {
     color: #1C1C1C;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     margin-top: 50px;
 }
@@ -42,7 +42,7 @@ h1 {
     background-color: #FDA4AF;
     color: #1C1C1C;
     font-family: 'Courier New', Courier, monospace;
-    width: 400px;
+    width: 30%;
     font-size: 20px;
     border-radius: 10px;
     border: none;
@@ -60,19 +60,20 @@ h1 {
     background-color: #F43F5E;
     color: #1C1C1C;
     font-family: 'Courier New', Courier, monospace;
-    width: 300px;
+    width: 60%;
     font-size: 20px;
     border-radius: 10px;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 
 #copy {
    background-color: #FDA4AF;
     color: #1C1C1C;
     font-family: 'Courier New', Courier, monospace;
-    width: 80px;
+    width: 25%;
     font-size: 12px;
     border-radius: 10px;
     border: none;
