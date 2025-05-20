@@ -1,12 +1,14 @@
 body {
-    background-color: #1C1C1C;
+        background: linear-gradient(220deg, #FB7185, #000000 100%);
+    height: 100vh;
+    background-attachment: fixed;
+    font-family: 'Poppins';
 }
 
 .body {
     background-color: #FDA4AF;
-    width: 80%;
-    height: auto;
-    margin: 10px auto 10px auto;
+    margin: 1em .4em;
+    height: calc(100% - 2em);
     border-radius: 20px;
     box-shadow: 10px 10px 20px #FB7185;
     display: flex;
@@ -18,9 +20,10 @@ body {
 .tekst {
     color: #1C1C1C;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
+    font-size: clamp(2.0rem, -0.875rem + 8.333vw, 2.5rem);
     text-align: center;
     margin-top: 50px;
+    padding: 0 20px;
 }
 
 h1 {
@@ -28,12 +31,13 @@ h1 {
 }
 .de2 {
     color: #FB7185;
+    margin: 0;
 }
 
-.tekst h2 {
+.tekst h3 {
     color: #777171;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: clamp(1rem, -0.875rem + 8.333vw, 1.5rem);
     text-align: center;
     margin-top: 5px;
 }
@@ -45,12 +49,13 @@ h1 {
     width: 30%;
     font-size: 20px;
     border-radius: 10px;
-    border: none;
+    border: 2px solid #ffffff;
+    box-shadow: 10px 10px 20px #FB7185;
     padding: 10px 20px;
     cursor: pointer;
-    margin-top: 90px;
-    border: 2px solid #FB7185;
+    margin-top: 50px;
 }
+
 #generate:hover {
     background-color: #FB7185;
     color: #1C1C1C;
@@ -60,7 +65,7 @@ h1 {
     background-color: #F43F5E;
     color: #1C1C1C;
     font-family: 'Courier New', Courier, monospace;
-    width: 60%;
+    width: 30%;
     font-size: 20px;
     border-radius: 10px;
     border: none;
@@ -69,20 +74,3 @@ h1 {
     margin-bottom: 50px;
 }
 
-#copy {
-   background-color: #FDA4AF;
-    color: #1C1C1C;
-    font-family: 'Courier New', Courier, monospace;
-    width: 25%;
-    font-size: 12px;
-    border-radius: 10px;
-    border: none;
-    padding: 15px;
-    cursor: pointer;
-    border: 2px solid #FB7185;
-}
-
-#copy:hover {
-    background-color: #FB7185;
-    color: #1C1C1C;
-}
